@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cute Game</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <!-- Background Music -->
+    <audio id="bgMusic" loop autoplay>
+        <source src="your-music-file.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    
+
+    <!-- UI Container -->
+    <div class="ui-container">
+        <button onclick="startMovement()">Go!</button>
+    </div>
+
+    <!-- Background and Snow Effect -->
+    <div class="background-container"></div>
+    <canvas id="snowCanvas" class="snow-canvas"></canvas>
+
+    <!-- Game Canvas -->
+    <canvas id="gameCanvas" class="game-canvas"></canvas>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
